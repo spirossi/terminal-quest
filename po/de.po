@@ -624,7 +624,7 @@ msgid ""
 "{{gb:Press}} {{ob:Enter}} {{gb:to continue.}}"
 msgstr ""
 "\n"
-"{{de:Drücken Sie}} {{ob:Enter}} {{de:um fortzufahren.}}"
+"{{gb:Drücken Sie}} {{ob:Enter}} {{gb:um fortzufahren.}}"
 
 #: ../linux_story/story/challenges/challenge_11.py:74
 #: ../linux_story/story/challenges/challenge_14.py:292
@@ -661,7 +661,7 @@ msgstr ""
 
 #: ../linux_story/story/challenges/challenge_11.py:95
 msgid "{{gb:New Power}}: to {{lb:move}} objects, type {{yb:mv}}"
-msgstr "{{de:Neue Fähigkeit}}: um Objekte zu {{lb:bewegen}}, tippe {{yb:mv}}"
+msgstr "{{gb:Neue Fähigkeit}}: um Objekte zu {{lb:bewegen}}, tippe {{yb:mv}}"
 
 #: ../linux_story/story/challenges/challenge_11.py:96
 msgid "and the object name."
@@ -1362,7 +1362,7 @@ msgid ""
 "{{gb:Now go into your}} {{lb:parents-room}}{{gb:.}}"
 msgstr ""
 "\n"
-"{{de:Geh jetzt in das}} {{lb:Elternzimmer.}}"
+"{{gb:Geh jetzt in das}} {{lb:Elternzimmer.}}"
 
 #: ../linux_story/story/challenges/challenge_17.py:87
 msgid ""
@@ -2283,7 +2283,7 @@ msgid ""
 "{{gb:You walk outside. Now go into the}} {{bb:barn}}{{gb:.}}"
 msgstr ""
 "\n"
-"{{de:Du gehst nach draußen. Jetzt geh in den}} {{bb:Schuppen}}{{de:.}}"
+"{{gb:Du gehst nach draußen. Jetzt geh in den}} {{bb:Schuppen}}{{gb:.}}"
 
 #: ../linux_story/story/challenges/challenge_21.py:42
 msgid ""
@@ -2838,7 +2838,7 @@ msgstr ""
 
 #: ../linux_story/story/challenges/challenge_25.py:163
 msgid "{{gb:Remember to use}} {{ob:TAB}}{{gb:!}}"
-msgstr "{{de:Denke daran, zu benutzen}} {{ob:TAB}}{{gb:!}}"
+msgstr "{{gb:Denke daran, zu benutzen}} {{ob:TAB}}{{gb:!}}"
 
 #: ../linux_story/story/challenges/challenge_25.py:174
 msgid "{{rb:Use}} {{yb:cat}} {{rb:to examine the tool.}}"
@@ -4469,7 +4469,7 @@ msgstr ""
 
 #: ../linux_story/story/challenges/challenge_35.py:60
 msgid "{{gb:New Power:}} Use"
-msgstr "{{de:Neue Fähigkeit:}} Benutze"
+msgstr "{{gb:Neue Fähigkeit:}} Benutze"
 
 #: ../linux_story/story/challenges/challenge_35.py:61
 msgid "{{yb:chmod +x locked-room}}"
@@ -5260,7 +5260,7 @@ msgid "{{gb:New Power:}} Use {{yb:rm}} to"
 msgstr ""
 "remove a file\n"
 "\n"
-"{{de:Neue Fähigkeit:}} Benutze {{yb:rm}} um eine Datei zu entfernen."
+"{{gb:Neue Fähigkeit:}} Benutze {{yb:rm}} um eine Datei zu entfernen."
 
 #: ../linux_story/story/challenges/challenge_43.py:166
 msgid " {{lb:remove an item}}."
@@ -5610,7 +5610,7 @@ msgid "{{gb:New Power:}} Use {{yb:sudo}} to"
 msgstr ""
 "run commands as {{yb:root}}\n"
 "\n"
-"{{de:Neue Macht:}} Benutze {{yb:sudo}} um Befehle als {{yb:root}} auszuführen."
+"{{gb:Neue Macht:}} Benutze {{yb:sudo}} um Befehle als {{yb:root}} auszuführen."
 
 #: ../linux_story/story/challenges/challenge_46.py:109
 msgid " {{lb:make yourself into a Super User.}}"
@@ -5783,7 +5783,7 @@ msgstr ""
 
 #: ../linux_story/story/challenges/challenge_46.py:26
 msgid "{{gb:Brilliant! You saved all the villagers.}}"
-msgstr "{{de:Großartig! Du hast alle Dorfbewohner gerettet.}}"
+msgstr "{{gb:Großartig! Du hast alle Dorfbewohner gerettet.}}"
 
 #: ../linux_story/story/challenges/challenge_46.py:261
 msgid ""
@@ -5880,32 +5880,31 @@ msgstr ""
 
 #: ../linux_story/story/challenges/challenge_5.py:103
 msgid "Is he here? {{lb:Look around}} with {{yb:ls}} to find out.\n"
-msgstr "Er ist hier? Schau dich um mit ls, um es herauszufinden.\n"
+msgstr "Ist er hier? {{lb:Schau dich um}} mit {{yb:ls}}, um es herauszufinden.\n"
 
 #: ../linux_story/story/challenges/challenge_5.py:108
 msgid "{{rb:Type}} {{yb:ls}} {{rb:to look for your Dad.}}"
-msgstr "{{yb:Tippe}} {{rb:ls}} {{yb:um nach deinem Vater zu suchen.}}"
+msgstr "{{rb:Tippe}} {{yb:ls}} {{rb:um nach deinem Vater zu suchen.}}"
 
 #: ../linux_story/story/challenges/challenge_5.py:116
 msgid "Your {{bb:Dad}} has been busy, there are loads of vegetables here."
-msgstr "Dein {{bb:Vater}} war beschäftigt, es gibt hier jede Menge Gemüse."
+msgstr "Dein {{bb:Vater}} war fleißig, es gibt hier jede Menge Gemüse."
 
 #: ../linux_story/story/challenges/challenge_5.py:117
 msgid "Hmmmm. He's not here. But there is something odd.\n"
-msgstr "Hmmmm. Er ist nicht hier. Aber es ist etwas seltsam.\n"
+msgstr "Hmmmm. Er ist nicht hier. Aber irgendwas ist komisch.\n"
 
 #: ../linux_story/story/challenges/challenge_5.py:118
 msgid ""
 "You see a {{bb:note}} on the ground. Use {{yb:cat note}} to {{lb:read}} what"
 " it says.\n"
 msgstr ""
-"Du siehst eine {{bb:note}} auf dem Boden. Benutze {{yb:cat note}} um zu "
+"Du siehst eine {{bb:Notiz (note)}} auf dem Boden. Benutze {{yb:cat note}} um zu "
 "{{lb:lesen}} was darauf steht.\n"
 
 #: ../linux_story/story/challenges/challenge_5.py:123
 msgid "{{rb:Type}} {{yb:cat note}} {{rb:to see what the note says!}}"
-msgstr ""
-"{{yb:Tippe}} {{rb:cat note}} {{rb:um zu sehen, was in der Notiz steht!}}"
+msgstr "{{rb:Tippe}} {{yb:cat note}} {{yb:um zu sehen, was in der Notiz steht!}}"
 
 #: ../linux_story/story/challenges/challenge_5.py:131
 msgid "Huh? That's weird."
@@ -5916,12 +5915,12 @@ msgid ""
 "But going back is super easy. Just type {{yb:cd ..}} to go back the way you "
 "came.\n"
 msgstr ""
-"Aber zurückzugehen ist super einfach. Tippe {{yb:cd ..}} um den Weg zurück "
-"zu gehen, den du gekommen bist.\n"
+"Aber zurückzugehen ist super einfach. Tippe {{yb:cd ..}} um dahin zurückzugehen, "
+"woher du gekommen bist.\n"
 
 #: ../linux_story/story/challenges/challenge_5.py:137
 msgid "{{rb:Type}} {{yb:cd ..}} {{rb:to go back to the garden.}}"
-msgstr "{{yb:Tippe}} {{rb:cd ..}} {{yb:um in den Garten zurückzukehren.}}"
+msgstr "{{rb:Tippe}} {{yb:cd ..}} {{rb:um in den Garten zurückzukehren.}}"
 
 #: ../linux_story/story/challenges/challenge_5.py:148
 msgid ""
@@ -5936,36 +5935,36 @@ msgid ""
 "{{gb:Top tip: Press the}} {{ob:UP}} {{gb:arrow key to replay your previous "
 "command.}}\n"
 msgstr ""
-"{{de:Tipp: Drücken Sie die}} {{ob:OBEN}} {{de:Pfeiltaste, um Ihren "
+"{{gb:Tipp: Drücke die}} {{ob:OBEN}} {{gb:Pfeiltaste, um den "
 "vorherigen Befehl erneut auszuführen.}}\n"
 
 #: ../linux_story/story/challenges/challenge_5.py:154
 msgid "{{rb:Type}} {{yb:cd ..}} {{rb:to go back to the house.}}"
-msgstr "{{yb:Tippe}} {{rb:cd ..}} {{yb:um zurück zum Haus zu gehen.}}"
+msgstr "{{rb:Tippe}} {{yb:cd ..}} {{rb:um zurück zum Haus zu gehen.}}"
 
 #: ../linux_story/story/challenges/challenge_5.py:165
 msgid "Now {{lb:go}} back into the {{bb:kitchen}} and see {{bb:Mum}}.\n"
-msgstr "Jetzt geh zurück in die Küche und schau nach deiner Mutter.\n"
+msgstr "Jetzt {{lb:geh}} zurück in die {{bb:Küche (kitchen)}} und schau nach deiner {{bb:Mutter (Mum)}}.\n"
 
 #: ../linux_story/story/challenges/challenge_5.py:170
 msgid "{{rb:Type}} {{yb:cd kitchen}} {{rb:to go back to the kitchen.}}"
-msgstr "{{yb:Gib}} {{rb:cd kitchen}} {{yb:ein, um zur Küche zurückzukehren.}}"
+msgstr "{{rb:Gib}} {{yb:cd kitchen}} {{rb:ein, um zur Küche zurückzukehren.}}"
 
 #: ../linux_story/story/challenges/challenge_5.py:21
 msgid ""
 "{{wb:Mum:}} {{Bb:\"Hi sleepyhead, breakfast is nearly ready. Can you go and "
 "grab your Dad? I think he's in the}} {{bb:garden}}{{Bb:.\"}}\n"
 msgstr ""
-"Mum: \"Hallo Schlafmütze, das Frühstück ist fast fertig. Kannst du deinen "
-"Vater holen? Ich glaube er ist im Garten.\"\n"
+"{{wb:Mum:}} {{Bb:\"Hallo Schlafmütze, das Frühstück ist fast fertig. Kannst du deinen "
+"Vater holen? Ich glaube er ist im}} {{bb:Garten (garden)}}{{Bb:.\"}}\n"
 
 #: ../linux_story/story/challenges/challenge_5.py:23
 msgid "Let's look for your {{bb:Dad}} in the {{bb:garden}}."
-msgstr "Lasst uns nach deinem {{bb:Vater}} im {{bb:Garten}} suchen."
+msgstr "Lass uns nach deinem {{bb:Vater}} im {{bb:Garten (garden)}} suchen."
 
 #: ../linux_story/story/challenges/challenge_5.py:24
 msgid "First we need to {{lb:leave}} the {{bb:kitchen}} using {{yb:cd ..}}\n"
-msgstr "Erst müssen wir die {{bb:Küche}} mit {{yb:cd ..}} {{lb:verlassen}}.\n"
+msgstr "Erst müssen wir die {{bb:Küche (kitchen)}} mit {{yb:cd ..}} {{lb:verlassen}}.\n"
 
 #: ../linux_story/story/challenges/challenge_5.py:29
 msgid "{{rb:To leave the kitchen, type}} {{yb:cd ..}}"
@@ -5973,11 +5972,11 @@ msgstr "{{rb:Um die Küche zu verlassen, tippe}} {{yb:cd ..}}"
 
 #: ../linux_story/story/challenges/challenge_5.py:40
 msgid "You are back in the main hall of your house.\n"
-msgstr "Du bist zurück in der Haupthalle deines Hauses.\n"
+msgstr "Du bist zurück im Eingangsbereich deines Hauses.\n"
 
 #: ../linux_story/story/challenges/challenge_5.py:41
 msgid "Can you see your {{bb:garden}}? Have a {{lb:look around}} you.\n"
-msgstr "Kannst du deinen Garten sehen? Schau dich mal um.\n"
+msgstr "Kannst du deinen {{bb:Garten (garden)}} sehen? {{lb:Schau}} dich mal um.\n"
 
 #: ../linux_story/story/challenges/challenge_5.py:46
 msgid "{{rb:Type}} {{yb:ls}} {{rb:to look around you.}}"
@@ -5987,41 +5986,44 @@ msgstr "{{rb:Gib}} {{yb:ls}} {{rb:ein, um dich umzusehen.}}"
 msgid ""
 "You see doors to the {{bb:garden}}, {{bb:kitchen}}, {{bb:my-room}} and "
 "{{bb:parents-room}}."
-msgstr "Du siehst Türen zum Garten, Küche, mein Zimmer und Elternzimmer."
+msgstr ""
+"Du siehst Türen zum {{bb:Garten (garden)}}, zur {{bb:Küche (kitchen)}},
+{{bb:deinem Zimmer (my-room)}} und zum {{bb:Zimmer deiner Eltern (parents-room)}}."
 
 #: ../linux_story/story/challenges/challenge_5.py:55
 msgid "{{lb:Go}} into your {{bb:garden}}.\n"
-msgstr "Geh in deinen Garten.\n"
+msgstr "{{lb:Geh}} in den {{bb:Garten (garden)}}.\n"
 
 #: ../linux_story/story/challenges/challenge_5.py:60
 msgid "{{rb:Type}} {{yb:cd garden}} {{rb:to go into the garden.}}"
 msgstr ""
-"{{yb:Gib}} {{rb:ein}} {{yb:cd garden}} {{rb:ein, um in den Garten zu "
+"{{rb:Tippe}} {{yb:cd garden}} {{rb:, um in den Garten zu "
 "gehen.}}"
 
 #: ../linux_story/story/challenges/challenge_5.py:71
 msgid "Use {{yb:ls}} to {{lb:look}} in the {{bb:garden}} for your {{bb:Dad}}.\n"
 msgstr ""
-"Benutze {{yb:ls}} um im {{bb:Garten}} nach deinem {{bb:Vater}} zu "
+"Benutze {{yb:ls}} um im {{bb:Garten (garden)}} nach deinem {{bb:Vater}} zu "
 "{{lb:schauen}}.\n"
 
 #: ../linux_story/story/challenges/challenge_5.py:76
 msgid ""
 "{{rb:To look for your Dad, type}} {{yb:ls}} {{rb:and press}} "
 "{{ob:Enter}}{{rb:.}}"
-msgstr "Um deinen Dad zu suchen, tippe {{yb:ls}} und drücke {{ob:Enter}}."
+msgstr ""
+"{{gb:Um deinen Dad zu suchen, tippe}} {{yb:ls}} und drücke {{ob:Enter}}{{rb:.}}"
 
 #: ../linux_story/story/challenges/challenge_5.py:84
 msgid "The {{bb:garden}} looks beautiful at this time of year."
-msgstr "Der {{bb:Garten}} sieht zu dieser Jahreszeit wunderschön aus."
+msgstr "Der {{bb:Garten (garden)}} sieht zu dieser Jahreszeit wunderschön aus."
 
 #: ../linux_story/story/challenges/challenge_5.py:85
 msgid "Hmmm...but you can't see him anywhere."
-msgstr "Hmmm...aber du kannst ihn nirgendwo sehen."
+msgstr "Hmmm... aber du kannst ihn nirgendwo sehen."
 
 #: ../linux_story/story/challenges/challenge_5.py:86
 msgid "Maybe he's in the {{bb:greenhouse}}."
-msgstr "Vielleicht ist er im {{bb:Gewächshaus}}."
+msgstr "Vielleicht ist er im {{bb:Gewächshaus (greenhouse)}}."
 
 #: ../linux_story/story/challenges/challenge_5.py:87
 msgid ""
@@ -6029,15 +6031,15 @@ msgid ""
 "{{lb:Go}} inside the {{bb:greenhouse}}.\n"
 msgstr ""
 "\n"
-"Geh in das Gewächshaus.\n"
+"{{lb:Geh}} ins {{bb:Gewächshaus (greenhouse)}}.\n"
 
 #: ../linux_story/story/challenges/challenge_5.py:92
 msgid "{{rb:To go to the greenhouse, type}} {{yb:cd greenhouse}}"
-msgstr "{{rb:Um in das Gewächshaus zu gehen, tippe}} {{yb:cd Gewächshaus}}"
+msgstr "{{rb:Um in das Gewächshaus zu gehen, tippe}} {{yb:cd greenhouse}}"
 
 #: ../linux_story/story/challenges/challenge_6.py:21
 msgid "Let {{bb:Mum}} know about {{bb:Dad}}. Type {{yb:cat Mum}}"
-msgstr "Sag {{bb:Mum}} Bescheid über {{bb:Dad}}."
+msgstr "Sag {{bb:Mama (Mum)}} Bescheid über {{bb:Papa (Dad)}}. Tippe {{yb:cat Mum}}"
 
 #: ../linux_story/story/challenges/challenge_6.py:26
 msgid ""
