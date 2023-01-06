@@ -19,7 +19,7 @@ class StepLs(StepTemplate):
 
 
 class Step1(StepLs):
-    story = [
+    story = [line.encode('utf-8') for line in [
         _("{{wb:Alarm}}: {{Bb:\"Beep beep beep! Beep beep beep!\"}}"),
         _("{{wb:Radio}}: {{Bb:\"Good Morning, this is the 9am news.\"\n"),
         _("\"The town of Folderton has awoken to strange news. There have been reports of missing people and "
@@ -27,20 +27,20 @@ class Step1(StepLs):
         _("\n\"Mayor Hubert has called an emergency town meeting and we'll keep you posted as it "
             "happens...\"}}\n"),
         _("It's time to get up sleepy head!\n "),
-    ]  # TODO: " \ is a hack in this array to stop word wrap code screwing up and adding new lines in where it shouldn't
+    ]]  # TODO: " \ is a hack in this array to stop word wrap code screwing up and adding new lines in where it shouldn't
 
-    story += wrap_in_box([
+    story += wrap_in_box([line.encode('utf-8') for line in [
         _("{{gb:New Power:}} Type {{yb:ls}} and press"),
         _("{{ob:Enter}} to {{lb:look around}}."),
-    ])
+    ]])
 
     start_dir = "~/my-house/my-room"
     end_dir = "~/my-house/my-room"
     commands = "ls"
     highlighted_commands = ["ls"]
-    hints = [
+    hints = [line.encode('utf-8') for line in [
         _("{{rb:Type}} {{yb:ls}} {{rb:and press}} {{ob:Enter}} {{rb:to take a look around your bedroom.}}")
-    ]
+    ]]
 
     def _run_at_start(self):
         sound_manager = SoundManager()
