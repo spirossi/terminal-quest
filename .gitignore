@@ -5,3 +5,8 @@
 *.swp
 *.mo
 .idea
+po/messages.pot
+po/po.json
+po/PYPOTFILES
+po/sort_po.py
+po/translate.py
