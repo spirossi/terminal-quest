@@ -18,15 +18,16 @@ class StepTemplateCd(StepTemplate):
 
 class Step1(StepTemplateCd):
 
-    story = [
+    story = [line.encode('utf-8') for line in [
         _("{{pb:Ding. Dong.}}\n"),
         _("It sounds like the bell you heard before.\n"),
         _("Use {{yb:ls}} to {{lb:look around}} again.")
-    ]
+    ]]
     start_dir = "~/town"
     end_dir = "~/town"
     commands = "ls"
-    hints = [_("{{rb:Use}} {{yb:ls}} {{rb:to look around.}}")]
+    hints = [line.encode('utf-8')
+             for line in [_("{{rb:Use}} {{yb:ls}} {{rb:to look around.}}")]]
     deleted_items = ["~/town/grumpy-man"]
 
     def next(self):
@@ -35,17 +36,18 @@ class Step1(StepTemplateCd):
 
 class Step2(StepTemplateCd):
 
-    story = [
+    story = [line.encode('utf-8') for line in [
         _("{{wb:Little-boy:}} {{Bb:\"Oh no! That grumpy-man with the funny legs has gone!}} {{Bb:Did you hear the bell just before he vanished??\"}}"),
         _("{{wb:Young-girl:}} {{Bb:\"I'm scared...\"}}"),
         _("\n{{pb:Ding. Dong.}}\n"),
         _("{{wb:Young-girl:}} {{Bb:\"Oh! I heard it go again!\"}}"),
         _("\nTake a {{lb:look around}} you to check.")
-    ]
+    ]]
     start_dir = "~/town"
     end_dir = "~/town"
     commands = "ls"
-    hints = [_("{{rb:Use}} {{yb:ls}} {{rb:to look around.}}")]
+    hints = [line.encode('utf-8')
+             for line in [_("{{rb:Use}} {{yb:ls}} {{rb:to look around.}}")]]
     deleted_items = ["~/town/little-boy"]
 
     def next(self):
@@ -54,17 +56,18 @@ class Step2(StepTemplateCd):
 
 class Step3(StepTemplateCd):
 
-    story = [
+    story = [line.encode('utf-8') for line in [
         _("{{wb:Young-girl:}} {{Bb:\"Wait, there was a}} {{bb:little-boy}} {{Bb:here...right?\""),
         _("Every time that bell goes, someone disappears!}}"),
         _("{{wb:Mayor:}} {{Bb:\"Maybe they just decided to go home...?\"}}"),
         _("\n{{pb:Ding. Dong.}}\n"),
         _("{{lb:Look around.}}")
-    ]
+    ]]
     start_dir = "~/town"
     end_dir = "~/town"
     commands = "ls"
-    hints = [_("{{rb:Use}} {{yb:ls}} {{rb:to look around.}}")]
+    hints = [line.encode('utf-8')
+             for line in [_("{{rb:Use}} {{yb:ls}} {{rb:to look around.}}")]]
     deleted_items = ["~/town/young-girl"]
 
     def next(self):
@@ -73,14 +76,15 @@ class Step3(StepTemplateCd):
 
 class Step4(StepTemplateCd):
 
-    story = [
+    story = [line.encode('utf-8') for line in [
         _("You are alone with the {{bb:Mayor}}.\n"),
         _("{{lb:Listen}} to what the {{bb:Mayor}} has to say.")
-    ]
+    ]]
     start_dir = "~/town"
     end_dir = "~/town"
     commands = "cat Mayor"
-    hints = [_("{{rb:Use}} {{yb:cat Mayor}} {{rb:to talk to the Mayor.}}")]
+    hints = [line.encode(
+        'utf-8') for line in [_("{{rb:Use}} {{yb:cat Mayor}} {{rb:to talk to the Mayor.}}")]]
 
     def next(self):
         return 8, 5
@@ -88,15 +92,16 @@ class Step4(StepTemplateCd):
 
 class Step5(StepTemplateCd):
 
-    story = [
+    story = [line.encode('utf-8') for line in [
         _("{{wb:Mayor:}} {{Bb:\"Everyone...has disappeared??\"\n"),
         _("\"....I should head home now...\"}}"),
         _("\n{{pb:Ding. Dong.}}\n")
-    ]
+    ]]
     start_dir = "~/town"
     end_dir = "~/town"
     commands = "ls"
-    hints = [_("{{rb:Use}} {{yb:ls}} {{rb:to look around.}}")]
+    hints = [line.encode('utf-8')
+             for line in [_("{{rb:Use}} {{yb:ls}} {{rb:to look around.}}")]]
     deleted_items = ["~/town/Mayor"]
     file_list = [
         {
@@ -111,15 +116,16 @@ class Step5(StepTemplateCd):
 
 
 class Step6(StepTemplateCd):
-    story = [
+    story = [line.encode('utf-8') for line in [
         _("Everyone has gone."),
         _("Wait - there's a {{bb:note}} on the floor.\n"),
         _("Use {{yb:cat}} to read the {{bb:note}}.")
-    ]
+    ]]
     start_dir = "~/town"
     end_dir = "~/town"
     commands = "cat note"
-    hints = [_("{{rb:Use}} {{yb:cat note}} {{rb:to read the note.}}")]
+    hints = [line.encode(
+        'utf-8') for line in [_("{{rb:Use}} {{yb:cat note}} {{rb:to read the note.}}")]]
 
     def next(self):
         return 9, 1

@@ -16,12 +16,12 @@ class StepTemplateLs(StepTemplate):
 
 
 class Step1(StepTemplateLs):
-    story = [
+    story = [line.encode('utf-8') for line in [
         _("Hello {}.").format("{{yb:" + os.environ['LOGNAME'] + "}}"),
         _("Welcome to the Terminal."),
         _("A wild and wondrous world where words wield power. These words are called commands."),
         _("Want new powers? Press {{gb:Enter}} to begin.")
-    ]
+    ]]
     start_dir = "~/my-house/my-room"
     end_dir = "~/my-house/my-room"
 
