@@ -16,37 +16,39 @@ class StepTemplateCd(StepTemplate):
 
 
 class Step1(StepTemplateCd):
-    story = [
+    story = [line.encode('utf-8') for line in [
         _("Have a {{lb:look around}} to see what's going on!")
-    ]
+    ]]
     start_dir = "~/town"
     end_dir = "~/town"
     commands = "ls"
-    hints = [_("{{rb:To look around, use}} {{yb:ls}}")]
+    hints = [line.encode('utf-8')
+             for line in [_("{{rb:To look around, use}} {{yb:ls}}")]]
 
     def next(self):
         return 7, 2
 
 
 class Step2(StepTemplateCd):
-    story = [
+    story = [line.encode('utf-8') for line in [
         _("Wow, there's so many people here. Find the {{bb:Mayor}} and {{lb:listen}} to what he has to say.")
-    ]
+    ]]
     start_dir = "~/town"
     end_dir = "~/town"
     commands = "cat Mayor"
-    hints = [_("{{rb:Stuck? Type:}} {{yb:cat Mayor}}")]
+    hints = [line.encode('utf-8')
+             for line in [_("{{rb:Stuck? Type:}} {{yb:cat Mayor}}")]]
 
     def next(self):
         return 7, 3
 
 
 class Step3(StepTemplateCd):
-    story = [
+    story = [line.encode('utf-8') for line in [
         _("{{wb:Mayor:}} {{Bb:\"Calm down please! We have our best people looking into the disappearances, and we're hoping to have an explanation soon.\"}}\n"),
         _("Something strange is happening. Better check everyone is ok."),
         _("Type {{yb:cat}} to check on the people.")
-    ]
+    ]]
     start_dir = "~/town"
     end_dir = "~/town"
 
@@ -74,7 +76,8 @@ class Step3(StepTemplateCd):
 
         # check through list of commands
         self.hints = [
-            _("{{rb:Use}} {{yb:%s}} {{rb:to progress.}}") % self.all_commands.keys()[0]
+            _("{{rb:Use}} {{yb:%s}} {{rb:to progress.}}") % self.all_commands.keys()[
+                0]
         ]
 
         end_dir_validated = self.get_fake_path() == self.end_dir
